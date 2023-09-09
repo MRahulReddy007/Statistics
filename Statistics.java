@@ -31,6 +31,21 @@ public class Statistics {
       }
       marks[i] = mark;
     }
+    int highestMark = 0;
+    int lowestMark = 30;
+    for (int mark : marks) {
+      if (mark > highestMark) {
+        highestMark = mark;
+      }
+      if (mark < lowestMark) {
+        lowestMark = mark;
+      }
+    }
+        System.out.println("Assignment: " + assignmentName);
+    System.out.println("Highest mark: " + highestMark);
+    System.out.println("Lowest mark: " + lowestMark);
+
+
 
     
   }
