@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE:Statictics
+PURPOSE OF PROJECT:To find the higest and lowest marks and also to find mean median 
+VERSION or DATE:09/sep/2023
+HOW TO START THIS PROJECT: by taking the input
+AUTHORS:Rahul Reddy Musukudabbidi
+
