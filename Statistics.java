@@ -44,10 +44,23 @@ public class Statistics {
         System.out.println("Assignment: " + assignmentName);
     System.out.println("Highest mark: " + highestMark);
     System.out.println("Lowest mark: " + lowestMark);
+        double mean = 0;
+    double sumOfSquares = 0;
+    for (int mark : marks) {
+      mean += mark;
+      sumOfSquares += (mark - mean) * (mark - mean);
+    }
+    double standardDeviation = Math.sqrt(sumOfSquares / marks.length);
+
+    // Print the mean and standard deviation.
+    System.out.println("Mean: " + mean);
+    System.out.println("Standard deviation: " + standardDeviation);
+  }
+}
 
 
 
     
-  }
-}
+  
+
 
